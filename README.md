@@ -260,9 +260,9 @@ $("prev+next")或者$("prev").next("next"):仅选取紧接在prev元素后的nex
 
 ##### 表单对象初始化，除第一个外，其他元素用type值来标记：
 
-$(":input"):选取所有的<input>、<textarea>、<select>和<button>元素
+$(":input"):选取所有的<input>/<textarea>/<select>和<button>元素
 
-$(":text"):选取所有的单行文本框，
+$(":text"):选取所有的单行文本框
 
 $(":password"):选取所有的密码框
 
